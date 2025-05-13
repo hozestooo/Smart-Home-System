@@ -1,6 +1,6 @@
 # Smart Home Automation System with ESP32 & Arduino Uno
 
-![Smart Home System Cover Page](./Images/cover.png)
+![Smart Home System Cover Page](./Images/cover.jpg)
 
 ## 📝 Table of Contents
 * [Short Description](#short-description)
@@ -61,19 +61,19 @@ Here's a look at the system's interface and setup:
 
 **Blynk Dashboards:**
 * **Desktop Dashboard:**
-    ![Blynk Desktop Dashboard](./Images/blynk_desktop_dashboard.jpg)
+    * ![Blynk Desktop Dashboard](./Images/blynk_desktop_dashboard.jpg)
 * **Mobile Dashboard:**
-    ![Blynk Mobile Dashboard](./Images/blynk_mobile_dashboard.jpg)
+    * ![Blynk Mobile Dashboard](./Images/blynk_mobile_dashboard.jpg)
 
 **System Layout & Wiring:**
 * **Home Diorama Layout:**
-    ![Home Diorama Layout](./Images/home_diorama_layout.jpg)
+    * ![Home Diorama Layout](./Images/home_diorama_layout.jpg)
 * **External Wiring Image:**
-    ![External Wiring Diagram](./Images/external_wiring.png)
+    * ![External Wiring Diagram](./Images/external_wiring.jpg)
 
 **Notifications:**
 * **Telegram Notifications Example:**
-    ![Telegram Notifications](./Images/telegram_notifications.jpg)
+    * ![Telegram Notifications](./Images/telegram_notifications.jpg)
 
 ## Technologies & Hardware Used
 
