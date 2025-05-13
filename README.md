@@ -1,6 +1,6 @@
 # Smart Home Automation System with ESP32 & Arduino Uno
 
-![Smart Home System Cover Page](./assets/cover_page.png)
+![Smart Home System Cover Page](./Images/cover.png)
 
 ## 📝 Table of Contents
 * [Short Description](#short-description)
@@ -61,19 +61,19 @@ Here's a look at the system's interface and setup:
 
 **Blynk Dashboards:**
 * **Desktop Dashboard:**
-    ![Blynk Desktop Dashboard](./assets/blynk_desktop_dashboard.png)
+    ![Blynk Desktop Dashboard](./Images/blynk_desktop_dashboard.jpg)
 * **Mobile Dashboard:**
-    ![Blynk Mobile Dashboard](./assets/blynk_mobile_dashboard.png)
+    ![Blynk Mobile Dashboard](./Images/blynk_mobile_dashboard.jpg)
 
 **System Layout & Wiring:**
 * **Home Diorama Layout:**
-    ![Home Diorama Layout](./assets/home_diorama_layout.png)
-* **External Wiring Overview:**
-    ![External Wiring Diagram](./assets/external_wiring.png)
+    ![Home Diorama Layout](./Images/home_diorama_layout.jpg)
+* **External Wiring Image:**
+    ![External Wiring Diagram](./Images/external_wiring.png)
 
 **Notifications:**
 * **Telegram Notifications Example:**
-    ![Telegram Notifications](./assets/telegram_notifications.png)
+    ![Telegram Notifications](./Images/telegram_notifications.jpg)
 
 ## Technologies & Hardware Used
 
@@ -120,20 +120,17 @@ Here's a look at the system's interface and setup:
 
 ### Hardware Connections
 * Connect all sensors, actuators, LCD, keypad, and modules to the ESP32 and Arduino Uno as per the pin definitions in their respective `.ino` files.
-* *(You might want to add a reference to your `external_wiring.png` image here, e.g., "Refer to the [External Wiring Overview](#visual-showcase) for a visual guide.")*
 
 ### Blynk App Setup
 1.  Create a new project in the Blynk app.
 2.  Add the required widgets (buttons for windows, fan, lights; labeled value displays for sensors) and assign them to the virtual pins (V0-V4, V6-V8) as defined in the ESP32 code.
 3.  Your Blynk Auth Token will be sent to your email.
-* *(You could also add your Blynk dashboard images here or refer to them, e.g., "See the [Blynk Dashboards](#visual-showcase) for examples.")*
 
 ### Telegram Bot Setup
 1.  Create a new bot by talking to the "BotFather" on Telegram.
 2.  Get your Chat ID. You can do this by:
     * Sending a message to your bot and then accessing `https://api.telegram.org/botYOUR_TELEGRAM_BOT_TOKEN/getUpdates` (replace `YOUR_TELEGRAM_BOT_TOKEN` with your actual token). Look for the `chat` object and its `id`.
     * Alternatively, message a bot like `@RawDataBot` or `@userinfobot` to get your user ID (if sending notifications to yourself) or a group ID. Add this to your local `credentials.h`.
-* *(Optionally, refer to your Telegram notification image: "An example of notifications can be seen in the [Visual Showcase](#visual-showcase).")*
 
 ## Author
 * **HONESTO E. VICENTE**
