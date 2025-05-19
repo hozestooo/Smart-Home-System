@@ -142,7 +142,6 @@ BLYNK_WRITE(V4){
 }
 
 void setup() {
-  // put your setup code here, to run once:
   Blynk.begin(auth, ssid, pass, "blynk.cloud", 80);
   
   WiFi.mode(WIFI_STA);
@@ -197,7 +196,6 @@ bool welcomeDisplayed = false;
 int checkIfRepeating = 0;
 
 void loop() {
-  // put your main code here, to run repeatedly:
   Blynk.run();
 
   // SENSORS EXTRACTION
