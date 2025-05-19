@@ -93,8 +93,6 @@ void setup() {
   lcd.clear();
   lcd.setCursor(0, 0);
   lcd.print("Welcome!");
-
-  //LCD();
 }
 
 void loop() {
@@ -152,9 +150,6 @@ void loop() {
     lcd.clear();
     lcd.setCursor(0, 0);
     lcd.print("Welcome!");
-    
-    //if(inputPin == "") LCD();
-
 
     // Reset servos to closed positions
     myServoDoor.write(closeDoorAngle);
